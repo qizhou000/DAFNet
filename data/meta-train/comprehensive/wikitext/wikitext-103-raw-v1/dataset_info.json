@@ -1,0 +1,66 @@
+{
+    "description": "",
+    "citation": "",
+    "homepage": "",
+    "license": "",
+    "features": {
+        "text": {
+            "dtype": "string",
+            "_type": "Value"
+        }
+    },
+    "builder_name": "arrow",
+    "dataset_name": "wikitext",
+    "config_name": "wikitext-103-raw-v1",
+    "version": {
+        "version_str": "0.0.0",
+        "major": 0,
+        "minor": 0,
+        "patch": 0
+    },
+    "splits": {
+        "train": {
+            "name": "train",
+            "num_bytes": 546500949,
+            "num_examples": 1801350,
+            "shard_lengths": [
+                1649000,
+                152350
+            ],
+            "dataset_name": "wikitext"
+        },
+        "validation": {
+            "name": "validation",
+            "num_bytes": 1159288,
+            "num_examples": 3760,
+            "dataset_name": "wikitext"
+        },
+        "test": {
+            "name": "test",
+            "num_bytes": 1305088,
+            "num_examples": 4358,
+            "dataset_name": "wikitext"
+        }
+    },
+    "download_checksums": {
+        "/content/wikitext/wikitext-103-raw-v1/1.0.0/a241db52902eaf2c6aa732210bead40c090019a499ceb13bcbfa3f8ab646a126/wikitext-train-00000-of-00002.arrow": {
+            "num_bytes": 500551728,
+            "checksum": null
+        },
+        "/content/wikitext/wikitext-103-raw-v1/1.0.0/a241db52902eaf2c6aa732210bead40c090019a499ceb13bcbfa3f8ab646a126/wikitext-train-00001-of-00002.arrow": {
+            "num_bytes": 46258904,
+            "checksum": null
+        },
+        "/content/wikitext/wikitext-103-raw-v1/1.0.0/a241db52902eaf2c6aa732210bead40c090019a499ceb13bcbfa3f8ab646a126/wikitext-validation.arrow": {
+            "num_bytes": 1160224,
+            "checksum": null
+        },
+        "/content/wikitext/wikitext-103-raw-v1/1.0.0/a241db52902eaf2c6aa732210bead40c090019a499ceb13bcbfa3f8ab646a126/wikitext-test.arrow": {
+            "num_bytes": 1306200,
+            "checksum": null
+        }
+    },
+    "download_size": 549277056,
+    "dataset_size": 548965325,
+    "size_in_bytes": 1098242381
+}

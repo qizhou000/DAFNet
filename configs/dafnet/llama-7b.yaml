@@ -1,0 +1,39 @@
+edit_model_name: llama-7b
+edit_modules: 
+- model.layers.29.mlp.gate_proj
+- model.layers.29.mlp.up_proj
+- model.layers.29.mlp.down_proj
+- model.layers.30.mlp.gate_proj
+- model.layers.30.mlp.up_proj
+- model.layers.30.mlp.down_proj
+- model.layers.31.mlp.gate_proj
+- model.layers.31.mlp.up_proj
+- model.layers.31.mlp.down_proj
+if_edit_bias: false
+gradient_signal_batch_size: 8
+aux_model:
+  layer_n: 2
+  inner_att_dim: 1024
+  ffn_dim: 1536
+  outer_att_dim: 1024
+  outer_att_head_n: 2
+  outer_score_att_dim: 256
+  outer_score_att_head_n: 2
+  norm_layer: EBN # EBN/BN/LN
+training:
+  aux_model_lr: 1.e-6
+  init_edit_lr: 1.e-4
+  edit_lr_lr: 1.e-4
+  relia_lambda: 0.1
+  gen_lambda: 0.1
+  loc_lambda: 0.2
+  max_seq_modeling: 1000 
+  increase_seq_modeling_i: 3000 
+  increase_seq_modeling_pace: 0.25 
+  ema_loss_lambda: 0.01
+  grad_clip: true
+  loss_batch_size: 24 
+  loss_sample_max_count: 48  
+  accum_n: 1 
+
+ 

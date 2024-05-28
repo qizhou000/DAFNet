@@ -1,0 +1,6 @@
+https://rome.baulab.info/data/stats/EleutherAI_gpt-j-6B/wikipedia_stats/transformer.h.3.mlp.fc_out_float32_mom2_100000.npz 
+https://rome.baulab.info/data/stats/EleutherAI_gpt-j-6B/wikipedia_stats/transformer.h.4.mlp.fc_out_float32_mom2_100000.npz 
+https://rome.baulab.info/data/stats/EleutherAI_gpt-j-6B/wikipedia_stats/transformer.h.5.mlp.fc_out_float32_mom2_100000.npz 
+https://rome.baulab.info/data/stats/EleutherAI_gpt-j-6B/wikipedia_stats/transformer.h.6.mlp.fc_out_float32_mom2_100000.npz 
+https://rome.baulab.info/data/stats/EleutherAI_gpt-j-6B/wikipedia_stats/transformer.h.7.mlp.fc_out_float32_mom2_100000.npz 
+https://rome.baulab.info/data/stats/EleutherAI_gpt-j-6B/wikipedia_stats/transformer.h.8.mlp.fc_out_float32_mom2_100000.npz 

@@ -1,0 +1,7 @@
+datasets==2.14.4
+numpy==1.24.3
+PyYAML==6.0
+PyYAML==6.0.1
+torch==2.0.1+cu118
+tqdm==4.65.0
+transformers==4.31.0
